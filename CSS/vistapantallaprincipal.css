@@ -110,6 +110,7 @@
     }
     
     .article-img {
+        position: relative;
         margin-left: 5%;
         margin-right: 5%;
         padding: 18px;
@@ -151,5 +152,14 @@
     }
 
     
+    .estrella-cancion{
+        position: absolute;
+        right: 1%;
+        top: 3%;
+    }
     
-    
+    .estrella-album{
+        position: absolute;
+        right: 10%;
+        top: 10%;
+    }
