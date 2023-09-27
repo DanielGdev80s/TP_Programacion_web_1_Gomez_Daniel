@@ -29,5 +29,35 @@ a {
     width: 305px;
 }
 
+/* Estilos para pantallas más pequeñas (tabletas) */
+@media (max-width: 768px) {
+    .contenedor {
+        margin-top: 100px; /* Reducir el margen superior */
+    }
+
+    input {
+        width: 100%; /* Hacer que los campos de entrada ocupen todo el ancho disponible */
+    }
+
+    .boton {
+        width: 100%; /* Hacer que el botón ocupe todo el ancho disponible */
+    }
+
+    footer {
+        display: none; /* Ocultar el footer en tabletas */
+    }
+}
+
+/* Estilos para pantallas aún más pequeñas (smartphones) */
+@media (max-width: 480px) {
+    .contenedor {
+        margin-top: 50px; /* Reducir aún más el margen superior */
+    }
+
+    footer {
+        display: none; /* Ocultar el footer en smartphones */
+    }
+}
+
 
 

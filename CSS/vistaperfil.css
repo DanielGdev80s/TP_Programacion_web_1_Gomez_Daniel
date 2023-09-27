@@ -69,4 +69,123 @@ input{
     padding: 20px; 
 }
 
+/* Estilos para tablet (ancho máximo de 768px) */
+@media screen and (max-width: 768px) {
+    h1 {
+      text-align: center; /* Centrar el nombre de usuario */
+      margin-right: 0; /* Eliminar el margen derecho */
+      margin-top: 20px; /* Agregar espacio superior */
+    }
+  
+    .cerrarsesion {
+      margin-left: 10px; /* Ajustar la posición de "Cerrar sesión" */
+      margin-right: 10px; /* Ajustar el margen derecho */
+      width: 100%; /* Ocupar todo el ancho disponible */
+    }
+  
+    .imgperfil {
+      width: 50px; /* Redimensionar la imagen de perfil */
+      height: 50px; /* Redimensionar la imagen de perfil */
+      top: 10px; /* Ajustar la posición superior */
+      right: 10px; /* Ajustar la posición derecha */
+    }
+  
+    label {
+      width: 100%; /* Ocupar todo el ancho disponible */
+      margin-bottom: 10px; /* Reducir el espacio entre etiquetas */
+    }
+  
+    .fechanacimiento {
+      margin-top: 10px; /* Ajustar la posición de la fecha de nacimiento */
+    }
+  
+    input {
+      height: 30px; /* Ajustar la altura de los campos de entrada */
+    }
+  
+    .inputfecha {
+      height: 30px; /* Ajustar la altura del campo de fecha */
+      width: 100%; /* Ocupar todo el ancho disponible */
+    }
+  
+    .linkpremium,
+    .linkeliminarusuario {
+      margin-top: 10px; /* Ajustar el espacio entre enlaces */
+    }
+  
+    .botones {
+      display: flex; /* Cambiar a un diseño flexible */
+      flex-direction: column; /* Cambiar la dirección de las columnas */
+      text-align: center;
+      margin-left: 0; /* Eliminar el margen izquierdo */
+    }
+  
+    .botones a button {
+      width: 100%; /* Ocupar todo el ancho disponible */
+      margin-bottom: 10px; /* Espacio entre botones */
+    }
 
+    footer{
+        display: none;
+    }
+  }
+  
+  /* Estilos para smartphone (ancho máximo de 480px) */
+  @media screen and (max-width: 480px) {
+    h1 {
+      margin-top: 10px; /* Ajustar espacio superior en teléfono */
+    }
+  
+    .cerrarsesion {
+      margin-left: 10px; /* Ajustar la posición de "Cerrar sesión" */
+      margin-right: 10px; /* Ajustar el margen derecho */
+      width: 100%; /* Ocupar todo el ancho disponible */
+    }
+  
+    .imgperfil {
+      width: 30px; /* Redimensionar la imagen de perfil */
+      height: 30px; /* Redimensionar la imagen de perfil */
+      top: 10px; /* Ajustar la posición superior */
+      right: 10px; /* Ajustar la posición derecha */
+    }
+  
+    label {
+      width: 100%; /* Ocupar todo el ancho disponible */
+      margin-bottom: 5px; /* Reducir el espacio entre etiquetas */
+    }
+  
+    .fechanacimiento {
+      margin-top: 10px; /* Ajustar la posición de la fecha de nacimiento */
+    }
+  
+    input {
+      height: 20px; /* Ajustar la altura de los campos de entrada */
+    }
+  
+    .inputfecha {
+      height: 20px; /* Ajustar la altura del campo de fecha */
+      width: 100%; /* Ocupar todo el ancho disponible */
+    }
+  
+    .linkpremium,
+    .linkeliminarusuario {
+      margin-top: 10px; /* Ajustar el espacio entre enlaces */
+    }
+  
+    .botones {
+      display: flex; /* Cambiar a un diseño flexible */
+      flex-direction: column; /* Cambiar la dirección de las columnas */
+      text-align: center;
+      margin-left: 0; /* Eliminar el margen izquierdo */
+    }
+  
+    .botones a button {
+      width: 100%; /* Ocupar todo el ancho disponible */
+      margin-bottom: 10px; /* Espacio entre botones */
+    }
+
+    footer{
+        display: none;
+    }
+  }
+  

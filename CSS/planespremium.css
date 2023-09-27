@@ -53,3 +53,124 @@ input{
     margin: 1%;
 }
 
+
+/* Estilos para tablet (ancho máximo de 768px) */
+@media screen and (max-width: 768px) {
+    h1 {
+      text-align: center; /* Centrar el nombre de usuario */
+      margin-right: 0; /* Eliminar el margen derecho */
+      margin-top: 20px; /* Ajustar espacio superior */
+    }
+  
+    .cerrarsesion {
+      margin-left: 10px; /* Ajustar posición de "Cerrar sesión" */
+      margin-right: 10px; /* Ajustar margen derecho */
+      width: 100%; /* Ocupar todo el ancho disponible */
+    }
+  
+    .imgperfil {
+      width: 50px; /* Redimensionar la imagen de perfil */
+      height: 50px; /* Redimensionar la imagen de perfil */
+      top: 10px; /* Ajustar posición superior */
+      right: 10px; /* Ajustar posición derecha */
+    }
+  
+    .planes {
+      margin-top: 5%; /* Ajustar espacio superior */
+      margin-left: 10%; /* Ajustar margen izquierdo */
+      width: 80%; /* Ajustar ancho */
+    }
+  
+    .formulario {
+      display: flex; /* Cambiar a un diseño flexible */
+      flex-direction: column; /* Cambiar dirección de columnas */
+      align-items: center; /* Centrar elementos del formulario */
+    }
+  
+    .formulario img {
+      width: 50%; /* Redimensionar las imágenes de los planes */
+      margin-bottom: 10px; /* Agregar espacio entre las imágenes */
+    }
+  
+    input {
+      display: block;
+      margin-bottom: 10px; /* Agregar espacio entre campos de radio */
+    }
+  
+    .botones {
+      margin-top: 20px; /* Ajustar espacio superior */
+      margin-left: 0; /* Eliminar margen izquierdo */
+      display: flex; /* Cambiar a un diseño flexible */
+      flex-direction: column; /* Cambiar dirección de columnas */
+      align-items: center; /* Centrar botones */
+    }
+  
+    .boton {
+      width: 100%; /* Ocupar todo el ancho disponible */
+      margin: 10px 0; /* Agregar espacio vertical entre botones */
+    }
+
+    footer{
+        display: none;
+    }
+  }
+  
+  /* Estilos para smartphone (ancho máximo de 480px) */
+  @media screen and (max-width: 480px) {
+    h1 {
+      margin-top: 10px; /* Ajustar espacio superior en teléfono */
+    }
+  
+    .cerrarsesion {
+      margin-left: 10px; /* Ajustar posición de "Cerrar sesión" */
+      margin-right: 10px; /* Ajustar margen derecho */
+      width: 100%; /* Ocupar todo el ancho disponible */
+    }
+  
+    .imgperfil {
+      width: 30px; /* Redimensionar la imagen de perfil */
+      height: 30px; /* Redimensionar la imagen de perfil */
+      top: 10px; /* Ajustar posición superior */
+      right: 10px; /* Ajustar posición derecha */
+    }
+  
+    .planes {
+      margin-top: 5%; /* Ajustar espacio superior */
+      margin-left: 5%; /* Ajustar margen izquierdo */
+      width: 90%; /* Ajustar ancho */
+    }
+  
+    .formulario {
+      display: flex; /* Cambiar a un diseño flexible */
+      flex-direction: column; /* Cambiar dirección de columnas */
+      align-items: center; /* Centrar elementos del formulario */
+    }
+  
+    .formulario img {
+      width: 50%; /* Redimensionar las imágenes de los planes */
+      margin-bottom: 10px; /* Agregar espacio entre las imágenes */
+    }
+  
+    input {
+      display: block;
+      margin-bottom: 10px; /* Agregar espacio entre campos de radio */
+    }
+  
+    .botones {
+      margin-top: 20px; /* Ajustar espacio superior */
+      margin-left: 0; /* Eliminar margen izquierdo */
+      display: flex; /* Cambiar a un diseño flexible */
+      flex-direction: column; /* Cambiar dirección de columnas */
+      align-items: center; /* Centrar botones */
+    }
+  
+    .boton {
+      width: 100%; /* Ocupar todo el ancho disponible */
+      margin: 10px 0; /* Agregar espacio vertical entre botones */
+    }
+
+    footer{
+        display: none;
+    }
+  }
+  
