@@ -60,4 +60,27 @@ a {
 }
 
 
+/* Cambia el fondo del formulario a morado y el texto a blanco */
+form {
+    background-color: purple;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Cambia el color de fondo del botón de inicio de sesión a negro */
+.boton {
+    background-color: black;
+    color: white;
+}
+
+/* Cambia el color de fondo del enlace "Registrarme" a morado */
+a[href="vistaperfil.html"] {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
 

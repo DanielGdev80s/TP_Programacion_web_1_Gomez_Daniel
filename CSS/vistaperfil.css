@@ -3,6 +3,7 @@ h1{
     text-align: right;
     margin-right: 10%;
     height: 20px;
+    color: #800080;
 }
 
 .cerrarsesion{
@@ -10,6 +11,7 @@ h1{
     position: relative;
     margin-left: 73%;
     width: max-content;
+    color: #000;
 }
 
 .imgperfil{
@@ -28,6 +30,7 @@ label{
     display: inline-block;
     width: 200px;
     margin-bottom: 30px;
+    color: #800080;
 }
 
 .fechanacimiento{
@@ -36,22 +39,26 @@ label{
 
 input{
     height: 30px;
+    border: 1px solid #800080;
 }
 
 .inputfecha{
     height: 20px;
     width: 170px;
+    border: 1px solid #800080;
 }
 
 .linkpremium{
     display: block;
     margin-top: 30px;
     margin-bottom: 20px;
+    color: #800080;
 }
 
 .linkeliminarusuario{
     display: block;
     margin-bottom: 20px;
+    color: #800080;
 }
 
 .botones{
@@ -67,6 +74,10 @@ input{
     width: 100%; 
     height: 100%; 
     padding: 20px; 
+    background-color: #800080; /* Fondo púrpura */
+    color: #000; /* Texto negro */
+    border: 2px solid #000; /* Borde de 2px en negro */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
 }
 
 /* Estilos para tablet (ancho máximo de 768px) */

@@ -277,3 +277,35 @@ li{
   
 
 
+  body {
+    background-color: #000; /* Fondo negro */
+    color: #800080; /* Texto en púrpura */
+}
+
+header {
+    background-color: #800080; /* Fondo púrpura */
+    color: #000; /* Texto en negro */
+    border-color: #000; /* Borde en negro */
+}
+
+
+.sectionimgbajonav {
+    border: 1px solid #800080; /* Borde en púrpura */
+}
+
+.canciones {
+    border: 1px solid #800080; /* Borde en púrpura */
+}
+
+.reproductor {
+    background-color: #800080; /* Fondo púrpura */
+    border-color: #000; /* Borde en negro */
+}
+
+.play, .circle, .square {
+  color: #000; /* Iconos en negro */
+}
+
+ul{
+  border: 1px solid #800080;
+}

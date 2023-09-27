@@ -174,3 +174,26 @@ input{
     }
   }
   
+
+  /* Colores principales */
+body {
+  background-color: black; /* Fondo negro */
+  color: purple; /* Texto en morado */
+}
+
+/* Estilos para los botones */
+.boton1 {
+  background-color: purple; /* Fondo morado */
+  color: black; /* Texto en negro */
+}
+
+.boton2 {
+  background-color: black; /* Fondo negro */
+  color: purple; /* Texto en morado */
+}
+
+/* Estilos para los enlaces */
+a {
+  color: purple; /* Color morado para enlaces */
+}
+

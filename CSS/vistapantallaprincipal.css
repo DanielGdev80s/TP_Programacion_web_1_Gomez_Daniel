@@ -333,3 +333,23 @@
 
 /* Estilos generales que aplican a todas las resoluciones */
 /* Agrega aquí tus estilos generales que aplican en todas las resoluciones */
+
+/* Colores principales */
+body {
+    background-color: black; /* Fondo negro */
+    color: purple; /* Texto en morado */
+}
+
+/* Estilos para los botones */
+input[type="button"] {
+    background-color: purple; /* Fondo morado */
+    color: black; /* Texto en negro */
+}
+
+/* Estilos para los enlaces */
+a {
+    color: purple; /* Color morado para enlaces */
+}
+
+/* Resto de estilos específicos para esta vista */
+/* Agrega aquí los estilos específicos para esta vista */
